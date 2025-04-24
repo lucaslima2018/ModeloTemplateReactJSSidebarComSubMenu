@@ -70,7 +70,7 @@ const MenuUsuarios = (prop) => {
                     </ListItemButton>
                     <Collapse in={openSubMenu} timeout="auto" unmountOnExit>
                         <List component="div" disablePadding>
-                            <SubMenuUsuarios menuItems />
+                            <SubMenuUsuarios menuItems={menuItems} />
                         </List>
                     </Collapse>
                 </ListItem>
